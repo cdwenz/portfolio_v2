@@ -1,0 +1,191 @@
+.container {
+  width: 100%;
+  height: 70px;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-right: 100px;
+  align-content: center;
+  background-color: #F2F1EF;
+}
+
+.linkTo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0px 1.75rem;
+    color: #000000;
+    font-family: sans-serif;
+    font-size: 0.9rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.5s all ease;
+    text-decoration: none;
+}
+.linkTo:hover {
+    color: #0EE8E2;
+    background-color: #6C757D;
+    transition: 0.5s all ease;
+  }
+  .div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logoContainer{
+    margin-left: 2rem;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    font-weight: 700;
+  }
+  .primary{
+    color: #0EE8E2;
+  }
+
+  .mobileIcon {
+    display: none;
+  }
+
+  .svg {
+    display: none;
+    fill: #85dbd9;
+    margin-right: 0.5rem;
+  }
+
+  ul {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 2rem;
+    list-style: none;
+  }
+
+  li {
+    height: 100%;
+    display: flex;
+  }
+
+  a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0px 0.5rem;
+    color: #000000;
+    font-family: sans-serif;
+    font-size: 0.9rem;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #0EE8E2;
+    background-color: #6C757D;
+    transition: 0.5s all ease;
+  }
+  a div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @media  (min-width: 960px) and (max-width: 1140px){
+    .logoContainer {
+      display: none;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .div {
+      width: 60%;
+      justify-content: left;
+    }
+    .svg {
+      display: flex;
+      font-size: 6em !important;
+    }
+  }
+
+  @media screen and (max-width: 960px) {
+    ul {
+      background-color: #F2F1EF;
+      z-index: 1;
+      position: absolute;
+      top: 90px;
+      left: -115%;
+      width: 100%;
+      height: 100vh;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      transition: 0.5s all ease;
+    }
+  }
+
+  @media screen and (max-width: 960px) {
+    li {
+      width: 100%;
+      height: 80%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+    }
+  }
+
+  @media screen and (max-width: 960px) {
+    .mobileIcon {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+    }
+    .mobileIcon svg {
+      fill: #85dbd9;
+      margin-right: 0.5rem;
+    }
+  }
+
+  @media screen and (max-width: 960px) {
+    a {
+      width: 100%;
+    }
+    a div {
+      width: 30%;
+      justify-content: left;
+    }
+  }
+  
+  @media screen and (max-width: 880px) {
+    a div {
+      width: 40%;
+      justify-content: left;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    a div {
+      width: 60%;
+      justify-content: left;
+    }
+  }
+
+  @media screen and (max-width: 260px) {
+    a div {
+      width: 100%;
+      justify-content: left;
+    }
+  }
+  
+ 

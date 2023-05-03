@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-around;
+    padding: 10px;
+    gap: 10px
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 300px;;
+}
+
+.elipse {
+    width: fit-content;
+    padding: 15px;
+    background-color: black;
+    border-radius: 100%;
+    justify-self: center;
+}
+
+.imgs {
+    display: flex;
+    justify-content: center;
+}
+.name, .description {
+    text-align: center;
+}

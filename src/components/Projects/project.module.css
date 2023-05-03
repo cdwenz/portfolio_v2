@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgProject {
+    position: relative;
+}
+
+.spanText1, .spanText2   {
+    position: absolute;
+}

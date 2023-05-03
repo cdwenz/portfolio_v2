@@ -1,0 +1,49 @@
+.container {
+    height: 560px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+h4 {
+    font-size: 40px;
+    font-weight: 400;
+    margin: 0;
+  }
+
+h1 {
+    font-size: 80px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.img {
+    height: 420px;
+    width: 420px;
+}
+
+@media screen and (max-width: 960px) {
+    .container {
+        height: 264px;
+    }
+
+    h4 {
+        font-size: medium;
+    }
+
+    h1{
+        font-size: x-large;
+    }
+    .img {
+        height: 80px;
+        width: 80px;
+    }
+}

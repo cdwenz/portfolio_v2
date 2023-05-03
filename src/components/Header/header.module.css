@@ -1,0 +1,54 @@
+.container {
+    background-color: black;
+    color: white;
+    height: 38px;
+    display: flex;
+    align-content: center;
+    font-size: 12px;
+    justify-content: space-around;
+}
+
+.Icons {
+    font-size: "12px";
+    align-self:"center";
+}
+
+.logoContainer{
+    display: none;
+  }
+
+.primary{
+color: #0EE8E2;
+font-size: 12px;
+}
+
+.location, .phone, .social{
+    align-self: center;
+    display: flex;
+}
+
+.social{
+    display: flex;
+    gap: 20px;
+}
+
+@media  (min-width: 960px) and (max-width: 1140px){
+    .logoContainer {
+        font-size: 12px;
+        margin-left: 2rem;
+        display: flex;
+        align-items: center;
+        font-family: sans-serif;
+        font-weight: 700;
+    }
+  }
+
+@media screen and (max-width: 960px) {
+    .container {
+        justify-content: center;
+        gap: 20px;
+    }
+    .location span, .phone span, .social span {
+        display: none;
+    }
+}

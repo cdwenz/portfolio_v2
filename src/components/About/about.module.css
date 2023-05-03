@@ -1,0 +1,37 @@
+.container {
+    background-color: #F2F1EF;
+    min-height: 390px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items : center;
+}
+
+.subtitle {
+    font-style: italic;
+}
+
+.left {
+    width: 50%;
+    margin-left: 80px;
+}
+
+.right {
+    width: 25%;
+    margin-right: 80px;
+}
+
+@media screen and (max-width: 920px) {
+    .container {
+        flex-direction: column-reverse;
+    }
+    .left {
+        width: 75%;
+        margin-left: 10px;
+    }
+    
+    .right {
+        width: auto;
+        margin-right: 10px;
+    }
+}
