@@ -21,14 +21,19 @@ code {
     width: 8px;
   }
 
-  *::-webkit-scrollbar-track {
+  *::-webkit-scrollbar:horizontal {
+    height: 10px;
+  }
+  *::-webkit-scrollbar-track,
+  *::-webkit-scrollbar-track:horizontal {
     background: #3d3d3d;
-    border-radius: 3px;
-    width: 8px;
+    width: 10px;
   }
 
-  *::-webkit-scrollbar-thumb {
+  *::-webkit-scrollbar-thumb,
+  *::-webkit-scrollbar-thumb:horizontal {
     background-color: #0edbcd;
     border-radius: 6px;
     border: 1px solid #3d3d3d;
   }
+
