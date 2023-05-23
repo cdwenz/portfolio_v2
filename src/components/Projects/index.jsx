@@ -35,21 +35,28 @@ const projects = [
 function Project() {
   return (
         <div className={styles.container}>
+        {/* <div className={styles.wrapper}> */}
+          {/* <div className={styles.item}>box-1</div>
+          <div className={styles.item}>box-2</div>
+          <div className={styles.item}>box-3</div>
+          <div className={styles.item}>box-4</div>
+          <div className={styles.item}>box-5</div>
+          <div className={styles.item}>box-6</div> */}
           <div className={styles.grid}>
-    {projects.map((element, index)=>{
-      return (
-            <figure className={styles.effect_ming}  id={element.index}>
-              <img src={img9} alt="img09"/>
-              <figcaption>
-                <h2>{element.title} <span>{element.subtitle}</span></h2>
-                <p>{element.description}</p>
-                <a href="#">View more</a>
-              </figcaption>			
-            </figure>
-      )
-    })}
-    </div>
-  </div>
+            {projects.map((element, index)=>{
+              return (
+                    <figure className={styles.effect_ming}  id={element.index}>
+                      <img src={img9} alt="img09"/>
+                      <figcaption>
+                        <h2>{element.title} <span>{element.subtitle}</span></h2>
+                        <p>{element.description}</p>
+                        <a href="#">View more</a>
+                      </figcaption>			
+                    </figure>
+              )
+            })}
+          </div>
+        </div>
   )
 }
 

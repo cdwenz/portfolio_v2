@@ -1,10 +1,37 @@
 .container {
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: center;
+    /* display: flex; */
+    /* flex-wrap: nowrap; */
+    /* justify-content: space-around; */
     align-items: center;
-	background-color: rgba(88, 87, 87, 0.904);
+	background-color: rgb(23, 22, 22)	;
+	height: 420px;
 }
+
+/* .grid {
+	position: relative;
+	max-height: 420px;
+	border: 1px solid black;
+	display: flex;
+	overflow-x: auto
+}
+
+.grid::-webkit-scrollbar{
+	width: 0;
+}
+
+.grid .figure {
+	line-height: 410px;
+	margin-right: 2px;
+	position: relative;
+	float: left;
+	overflow: hidden;
+	margin: 10px 1%;
+	min-width: 320px;
+	width: 360px;
+	height: 410px;
+	text-align: center;
+	cursor: pointer; 
+}*/
 
 .imgProject {
     position: relative;
@@ -19,9 +46,12 @@
 .grid {
 	position: relative;
 	clear: both;
-	/* margin: 0 auto; */
+	margin: 0 auto;
 	/* padding: 1em 0 4em; */
-	/* max-width: 360px; */
+	display: flex;
+	overflow-x: auto;
+	overflow-y: hidden;
+	max-height: 420px;
 	height: 420px;
 	list-style: none;
 	text-align: center;
@@ -33,7 +63,7 @@
 	float: left;
 	overflow: hidden;
 	/* margin: 10px 1%; */
-	/* min-width: 320px; */
+	min-width: 320px;
 	width: 360px;
 	height: 420px;
 	background: #3085a3;
