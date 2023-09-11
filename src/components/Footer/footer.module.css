@@ -1,3 +1,8 @@
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
 .container {
   background-color: #454748;
   color: white;
@@ -31,7 +36,39 @@
   min-height: 32px
 }
 
-.iconsSocial > svg {
+.iconsSocial > a {
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+.iconsSocial > a > svg {
   height: 1.5em;
   width: 1.5em;
+  color: whitesmoke;
+  transition: 0.2s all ease-in;
+}
+.iconsSocial > a:hover {
+  background-color: transparent;
+}
+
+.iconsSocial > a:hover > svg {
+  color: #0EE8E2;
+  scale: 1.1;
+  background-color: transparent;
+}
+
+
+
+.copyright {
+  background-color: #545454;
+  color: whitesmoke;
+  display: flex;
+  margin: auto;
+  width: 100%;
+}
+
+.copyright > small {
+  display: flex;
+  margin: auto;
+  padding: 24px;
 }

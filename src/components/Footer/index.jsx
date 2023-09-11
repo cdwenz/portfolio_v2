@@ -19,35 +19,40 @@ function Footer() {
   }
 
   return (
-    <div className={styles.container}>
-      <div className={styles.firstCol}>
-        <h3>PORTFOLIO</h3>
-        <span>
-          Cristian <text className={styles.primary}>Wenz.</text>
-        </span>
-        <span>Full Stack Developer.</span>
-      </div>
-      <div>
-        <h3>RESUME</h3>
-        <span>
-          Write me to{" "}
-          <span
-            className={styles.emailCopy}
-            id="email"
-            onClick={() => copyToClipboard()}
-          >
-            <i>cdwenz@gmail.com</i>
+    <div className={styles.main}>
+      <div className={styles.container}>
+        <div className={styles.firstCol}>
+          <h3>PORTFOLIO</h3>
+          <span>
+            Cristian <text className={styles.primary}>Wenz.</text>
           </span>
-        </span>
-        <Toaster />;
-      </div>
-      <div>
-        <h3>SOCIAL MEDIA</h3>
-        <div className={styles.iconsSocial}>
-          <AiFillLinkedin />
-          <FaXTwitter />
-          <FaGithub />
+          <span>Full Stack Developer.</span>
         </div>
+        <div>
+          <h3>RESUME</h3>
+          <span>
+            Write me to{" "}
+            <span
+              className={styles.emailCopy}
+              id="email"
+              onClick={() => copyToClipboard()}
+            >
+              <i>cdwenz@gmail.com</i>
+            </span>
+          </span>
+          <Toaster />;
+        </div>
+        <div>
+          <h3>SOCIAL MEDIA</h3>
+          <div className={styles.iconsSocial}>
+            <a href="https://www.linkedin.com/in/cdwenz/" target="_blank"><AiFillLinkedin /></a>
+            <a href="https://twitter.com/cdwenz" target="_blank"><FaXTwitter /></a>
+            <a href="https://github.com/cdwenz" target="_blank"><FaGithub /></a>
+          </div>
+        </div>
+      </div>
+      <div className={styles.copyright}>
+        <small>©2023 - All rights reserved</small>
       </div>
     </div>
   );
