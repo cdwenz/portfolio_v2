@@ -25,7 +25,13 @@ const projects = [
   img: img
   },
   {
-  title: 'titulo3',
+  title: 'titulo4',
+  subtitle: 'subtitle3',
+  description: 'descripción3',
+  img: img
+  },
+  {
+  title: 'titulo5',
   subtitle: 'subtitle3',
   description: 'descripción3',
   img: img
