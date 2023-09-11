@@ -3,7 +3,8 @@ import styles from './header.module.css';
 import { IconContext } from "react-icons";
 import { MdLocationOn, MdWhatsapp } from 'react-icons/md';
 import { AiFillLinkedin } from 'react-icons/ai';
-import { FaTwitter, FaGithub } from 'react-icons/fa';
+import { FaGithub } from 'react-icons/fa';
+import { FaXTwitter } from 'react-icons/fa6'
 
 
 function Header() {
@@ -25,7 +26,7 @@ function Header() {
             <div className={styles.social}>
                 <span>Social Media</span>
                 <AiFillLinkedin />
-                <FaTwitter />
+                <FaXTwitter />
                 <FaGithub />
             </div>
         </IconContext.Provider>

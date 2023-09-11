@@ -1,0 +1,37 @@
+.container {
+  background-color: #454748;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: space-around;
+  padding: 48px;
+}
+
+.primary{
+    color: #0EE8E2;
+  }
+
+.firstCol {
+  display: flex;
+  flex-direction: column;
+}
+
+.emailCopy {
+  cursor: pointer;
+}
+
+.emailCopy:hover {
+  color: #0EE8E2;
+}
+
+.iconsSocial{
+  display: flex;
+  gap: 5px;
+  min-height: 32px
+}
+
+.iconsSocial > svg {
+  height: 1.5em;
+  width: 1.5em;
+}
