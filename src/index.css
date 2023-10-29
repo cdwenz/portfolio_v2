@@ -1,10 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,300&display=swap');
 
+:root{
+  --main-color: #00C2CB;
+  --back-gray: #454748;
+}
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
+  background-color: aliceblue;
 }
 
+/* #root {
+  display: flex;
+  justify-content: center;
+} */
 code {
   font-family: 'Poppins', sans-serif;
 }
@@ -13,7 +22,7 @@ code {
   /* Firefox */
   * {
     scrollbar-width: auto;
-    scrollbar-color: #0edbcd #3d3d3d;
+    scrollbar-color: #00C2CB #3d3d3d;
   }
 
   /* Chrome, Edge, and Safari */
@@ -32,8 +41,24 @@ code {
 
   *::-webkit-scrollbar-thumb,
   *::-webkit-scrollbar-thumb:horizontal {
-    background-color: #0edbcd;
+    background-color: #00C2CB;
     border-radius: 6px;
     border: 1px solid #3d3d3d;
   }
 
+/* PLACEHOLDER */
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  color: #b1b1b1;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+ color: #b1b1b1;
+ opacity: 1 /* esto es porque Firefox le reduce la opacidad por defecto */;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+ color: #b1b1b1;
+ opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color: #b1b1b1;
+}

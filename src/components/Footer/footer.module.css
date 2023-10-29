@@ -4,7 +4,7 @@
 }
 
 .container {
-  background-color: #454748;
+  background-color: var(--back-gray);
   color: white;
   font-family: 'Poppins', sans-serif;
   margin: 0;
@@ -14,7 +14,7 @@
 }
 
 .primary{
-    color: #0EE8E2;
+    color: var(--main-color);
   }
 
 .firstCol {
@@ -27,7 +27,7 @@
 }
 
 .emailCopy:hover {
-  color: #0EE8E2;
+  color: var(--main-color);
 }
 
 .iconsSocial{
@@ -52,7 +52,7 @@
 }
 
 .iconsSocial > a:hover > svg {
-  color: #0EE8E2;
+  color: var(--main-color);
   scale: 1.1;
   background-color: transparent;
 }
