@@ -43,6 +43,9 @@ h1 {
         font-size: x-large;
     }
     .img {
+        display: none;
+    }
+    .img img {
         height: 80px;
         width: 80px;
     }

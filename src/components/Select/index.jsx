@@ -35,7 +35,7 @@ function Select() {
         value={ask}
         onChange={(e) => handleChange(e)}
         onBlur={() => setTimeout(() => setIsActive(false), 100)}
-        style={{ borderColor: `${validation ? "red" : "gray"}` }}
+        // style={{ borderColor: `${validation ? "red" : "gray"}` }}
       />
       <div className={styles.OPTION}>
           {asks.map((item, index) => (

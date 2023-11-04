@@ -72,3 +72,10 @@
   margin: auto;
   padding: 24px;
 }
+
+@media screen and (max-width: 500px) {
+  .container {
+    flex-direction: column;
+    gap: 24px;
+  }
+}

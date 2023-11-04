@@ -37,8 +37,8 @@ const Navbar = () => {
           <div className={styles.mobileIcon} onClick={() => mobileMenu()}>
             {showMobileMenu ? <FaTimes /> : <FaBars />}
           </div>
-          <ul id="mobileMenu">
-            <li>
+          <ul id="mobileMenu" className={styles.ulNavbar}>
+            <li className={styles.liNavbar}>
               {items.map((item, index) => {
                 return (
                   <a

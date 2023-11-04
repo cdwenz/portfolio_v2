@@ -8,7 +8,7 @@
   height: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-right: 100px;
   align-content: center;
   background-color: aliceblue;
@@ -72,36 +72,17 @@
     margin-right: 0.5rem;
   }
 
-  ul {
+  .ulNavbar {
     height: 100%;
     display: flex;
     justify-content: space-between;
-    margin-right: 2rem;
+    margin: 0;
     list-style: none;
   }
 
-  li {
+  .liNavbar {
     height: 100%;
     display: flex;
-  }
-
-  a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    padding: 0px 0.5rem;
-    color: #000000;
-    font-family: sans-serif;
-    font-size: 0.9rem;
-    font-weight: 700;
-    cursor: pointer;
-    text-decoration: none;
-  }
-  a:hover {
-    color: var(--main-color);
-    background-color: #6C757D;
-    transition: 0.5s all ease;
   }
   a div {
     width: 100%;

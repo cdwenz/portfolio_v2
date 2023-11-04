@@ -8,6 +8,8 @@ import Layer from './components/Layers';
 import Navbar from './components/Navbar';
 import Project from './components/Projects';
 import './App.css'
+import Technologies from './components/Technologies';
+import Employment from './components/Employment';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
       <Layer />
       <About />
       <Project />
+      <Employment />
+      <Technologies />
       <Contact />
       <Footer />
     </div>

@@ -1,0 +1,76 @@
+{
+    "images": [
+        {
+            "title": "typescript",
+            "description": "description",
+            "imgBW": "https://firebasestorage.googleapis.com/v0/b/images-cdwenz.appspot.com/o/technologies%2Ftypescript.png?alt=media&token=ba912134-677a-4812-883f-2fec2bb6b85e",
+            "imgColor": "https://firebasestorage.googleapis.com/v0/b/images-cdwenz.appspot.com/o/technologies%2FtypescriptColor.png?alt=media&token=2b41339b-684d-42be-a166-f2d29c30acba"
+        },
+        {
+            "title": "javascript",
+            "description": "description",
+            "imgBW": "https://firebasestorage.googleapis.com/v0/b/images-cdwenz.appspot.com/o/technologies%2Fjavascript.png?alt=media&token=e9f44efa-a202-4331-b241-7ffc34bd2aea",
+            "imgColor": "https://firebasestorage.googleapis.com/v0/b/images-cdwenz.appspot.com/o/technologies%2FjavascriptColor.png?alt=media&token=2571a98d-2ace-469c-9cc3-a25f9beb6c76"
+        },
+        {
+            "title": "react",
+            "description": "description",
+            "imgBW": "https://firebasestorage.googleapis.com/v0/b/images-cdwenz.appspot.com/o/technologies%2Freact.png?alt=media&token=4f0d1b03-e85f-432c-8313-5b9ca8eb7181",
+            "imgColor": "https://firebasestorage.googleapis.com/v0/b/images-cdwenz.appspot.com/o/technologies%2FreactColor.png?alt=media&token=b47e683e-0850-4f9a-ac74-895428e5a1b2"
+        },
+        {
+            "title": "nextjs",
+            "description": "description",
+            "imgBW": "https://firebasestorage.googleapis.com/v0/b/images-cdwenz.appspot.com/o/technologies%2Fnextjs.png?alt=media&token=4b3893c3-fc34-4016-a3f4-9f23ae321671",
+            "imgColor": "https://firebasestorage.googleapis.com/v0/b/images-cdwenz.appspot.com/o/technologies%2FnextjsColor.png?alt=media&token=a8c93948-c454-4fd6-9ade-5c1d3ab690f8"
+        },
+        {
+            "title": "html5",
+            "description": "description",
+            "imgBW": "https://firebasestorage.googleapis.com/v0/b/images-cdwenz.appspot.com/o/technologies%2Fhtml5.png?alt=media&token=a3cf2cdb-679d-460f-8be0-222898e1e472",
+            "imgColor": "https://firebasestorage.googleapis.com/v0/b/images-cdwenz.appspot.com/o/technologies%2Fhtml5Color.png?alt=media&token=e56eb15e-59bc-4ac2-8150-b4003cf7494a"
+        },
+        {
+            "title": "css3",
+            "description": "description",
+            "imgBW": "https://firebasestorage.googleapis.com/v0/b/images-cdwenz.appspot.com/o/technologies%2Fcss3.png?alt=media&token=6678d507-fc68-4155-92af-478d520abafd",
+            "imgColor": "https://firebasestorage.googleapis.com/v0/b/images-cdwenz.appspot.com/o/technologies%2Fcss3Color.png?alt=media&token=27d083da-ef75-480d-802e-bf31442971a4"
+        },
+        {
+            "title": "nodeJs",
+            "description": "is an open-source, cross-platform JavaScript runtime environment.",
+            "imgBW": "https://firebasestorage.googleapis.com/v0/b/images-cdwenz.appspot.com/o/technologies%2Fnodejs.png?alt=media&token=ffb8c625-4e05-47b2-83b3-516c5bf2f4aa",
+            "imgColor": "https://firebasestorage.googleapis.com/v0/b/images-cdwenz.appspot.com/o/technologies%2FnodejsColor.png?alt=media&token=774d41ae-8b3b-4b85-94c7-8a7778c76046"
+        },
+        {
+            "title": "postgresql",
+            "description": "description",
+            "imgBW": "https://firebasestorage.googleapis.com/v0/b/images-cdwenz.appspot.com/o/technologies%2Fpostgresql.png?alt=media&token=c7fb466d-df87-4505-9342-4d5331aa842e",
+            "imgColor": "https://firebasestorage.googleapis.com/v0/b/images-cdwenz.appspot.com/o/technologies%2FpostgresqlColor.png?alt=media&token=67ca4ecf-7fa0-4709-b260-ae0b12723003"
+        },
+        {
+            "title": "express js",
+            "description": "description",
+            "imgBW": "https://firebasestorage.googleapis.com/v0/b/images-cdwenz.appspot.com/o/technologies%2Fexpressjs.png?alt=media&token=89d8830e-eacf-44e6-b7b1-a0e31b256ccd",
+            "imgColor": "https://firebasestorage.googleapis.com/v0/b/images-cdwenz.appspot.com/o/technologies%2FexpressjsColor.png?alt=media&token=fd62affa-21c2-4884-9731-946c1d942d3b"
+        },
+        {
+            "title": "flutter",
+            "description": "description",
+            "imgBW": "https://firebasestorage.googleapis.com/v0/b/images-cdwenz.appspot.com/o/technologies%2Fflutter.png?alt=media&token=b339db5c-c19f-45e8-bbaa-2ea004814e77",
+            "imgColor": "https://firebasestorage.googleapis.com/v0/b/images-cdwenz.appspot.com/o/technologies%2FflutterColor.png?alt=media&token=821facf2-a608-445c-ab8b-9a56a2a94fbf"
+        },
+        {
+            "title": "dart",
+            "description": "description",
+            "imgBW": "https://firebasestorage.googleapis.com/v0/b/images-cdwenz.appspot.com/o/technologies%2Fdart.png?alt=media&token=7cd29f44-39b5-41a5-ab11-30cbbcbecac8",
+            "imgColor": "https://firebasestorage.googleapis.com/v0/b/images-cdwenz.appspot.com/o/technologies%2FdartColor.png?alt=media&token=e4ffb91e-6fd9-4f4e-a424-b5dda4e5db31"
+        },
+        {
+            "title": "figma",
+            "description": "description",
+            "imgBW": "https://firebasestorage.googleapis.com/v0/b/images-cdwenz.appspot.com/o/technologies%2Ffigma.png?alt=media&token=31e50c47-b2eb-4679-ba05-8b74f45c1edc",
+            "imgColor": "https://firebasestorage.googleapis.com/v0/b/images-cdwenz.appspot.com/o/technologies%2FfigmaColor.png?alt=media&token=083488e1-e3a7-42fd-bdeb-1888be9c98b5"
+        }
+    ]   
+}

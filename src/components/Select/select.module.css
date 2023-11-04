@@ -68,3 +68,13 @@
     color: white;
 }
 
+@media screen and (max-width: 500px) {
+    .DROPDOWN {
+        width: 90vw;
+    }
+
+    .DROPDOWN .TEXTBOX {
+        width: 100%;
+        border: 1px solid black;
+    }
+}
