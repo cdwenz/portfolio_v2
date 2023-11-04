@@ -29,7 +29,7 @@ const Navbar = () => {
       <div className={styles.wrapper}>
         <IconContext.Provider value={{ style: { fontSize: "2em" } }}>
           <div className={styles.logoContainer}>
-            <img src={imgLogo} alt="logo" style={{height: '70px'}}/>
+            <img src={imgLogo} alt="logo" style={{ height: "70px" }} />
             <span className={styles.name}>Cristian&nbsp;</span>
             {/* &nbsp; */}
             <span className={styles.primary}>Wenz</span>.
@@ -38,9 +38,9 @@ const Navbar = () => {
             {showMobileMenu ? <FaTimes /> : <FaBars />}
           </div>
           <ul id="mobileMenu" className={styles.ulNavbar}>
-            <li className={styles.liNavbar}>
-              {items.map((item, index) => {
-                return (
+            {items.map((item, index) => {
+              return (
+                <li className={styles.liNavbar}>
                   <a
                     key={index}
                     href={`#${item}`}
@@ -49,9 +49,9 @@ const Navbar = () => {
                   >
                     <div className={styles.div}>{item}</div>
                   </a>
-                );
-              })}
-            </li>
+                </li>
+              );
+            })}
           </ul>
         </IconContext.Provider>
       </div>

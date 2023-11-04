@@ -15,26 +15,62 @@
     margin: 0;
 }
 
+.cardMap {
+    display: flex;
+    gap: 48px;
+    overflow: scroll;
+    padding: 24px 0;
+}
+
 .containCard {
-    max-width: 360px;
-    max-height: 420px;
-    padding: 24px;
+    min-width: 360px;
+    min-height: 420px;
     border-radius: 10px;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+}
+
+.headCard {
+    height: 80px;
+    width: 100%;
+    background-color: #FFFFFF;
+}
+
+.divideCard {
+    position: relative;
+    height: 80%;
+    align-self: flex-end;
+    background-color: #F2F1EF;
+    padding: 24px;
 }
 
 .titleCard {
     display: flex;
     justify-content: center;
+    margin-top: 35px;
+}
+
+.footerCard {
+    display: flex;
+    justify-content: center;
 }
 
 .imgCard {
+    position: absolute;
     display: flex;
     margin: auto;
     width: 100px;
     height: 98px;
+    transform: translate(100%, -75px);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .liCard {
     font-size: small;
+}
+
+@media screen and (max-width: 500px) {
+    .containerEmploy {
+        margin-left: 14px;
+    }
 }

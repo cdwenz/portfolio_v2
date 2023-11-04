@@ -3,6 +3,7 @@
   flex-direction: column;
   align-content: space-between;
   gap: 24px;
+  background-color: #F2F1EF;
 }
 
 .flexCenter {
@@ -25,6 +26,11 @@
 .h3 {
   margin: 0;
   margin-left: 80px;
+}
+
+.imgSmall, .imgSmall img {
+  display: none;
+  height: 52px;
 }
 /* iHOVER */
 
@@ -181,3 +187,16 @@
     transform: translateX(0);
   }
   
+  @media screen and (max-width:500px) {
+    .imgSmall, .imgSmall img {
+      display: block;
+    }
+
+    .flexCenter {
+      display: none;
+    }
+
+    .subtitle, .h3 {
+      margin-left: 14px;
+    }
+  }

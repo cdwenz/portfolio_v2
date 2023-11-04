@@ -16,20 +16,25 @@ function Technologies() {
       <div className="row box">
         {charge.map((item, index) => {
           return (
-            <div className="col-sm-2 flexCenter" key={index}>
-              <div className="ih-item circle effect3 left_to_right">
-                <a href="#">
-                  <div className="img">
-                    <img src={item.imgBW} alt="img" className="first" />
-                    <img src={item.imgColor} alt="img" className="second" />
-                  </div>
-                  <div className="info">
-                    <h5>{item.title}</h5>
-                    <p>{item.description}</p>
-                  </div>
-                </a>
+            <>
+              <div className="col imgSmall">
+                <img src={item.imgColor} alt="img"/>
               </div>
-            </div>
+              <div className="col-sm-2 flexCenter" key={index}>
+                <div className="ih-item circle effect3 left_to_right">
+                  <a href="#">
+                    <div className="img">
+                      <img src={item.imgBW} alt="img" className="first" />
+                      <img src={item.imgColor} alt="img" className="second" />
+                    </div>
+                    <div className="info">
+                      <h5>{item.title}</h5>
+                      <p>{item.description}</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </>
           );
         })}
       </div>
