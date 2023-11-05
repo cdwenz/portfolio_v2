@@ -5,7 +5,7 @@ import Textra from 'react-textra';
 
 function Home() {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id='HOME'>
         <div className={styles.text}>
         <h4>
           <Textra 

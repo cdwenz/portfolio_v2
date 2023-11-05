@@ -10,7 +10,7 @@ function Technologies() {
   }, []);
 
   return charge.length > 0 ? (
-    <div className="centerAll">
+    <div className="centerAll" id="SKILLS">
       <div className="subtitle">Skills</div>
       <h3 className="h3">TECHNOLOGIES</h3>
       <div className="row box">

@@ -4,7 +4,7 @@ import img from '../../img/cdwenz.png'
 
 function About() {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id='ABOUT'>
         <div className={styles.left}>
             <div className={styles.subtitle}>About me</div>
             <h3 className={styles.h3}>THIS IS THE WAY</h3>

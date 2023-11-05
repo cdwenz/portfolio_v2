@@ -1,0 +1,111 @@
+.containerEdu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ulEdu {
+    display: flex;
+    flex-direction: row;
+    padding: 6px 16px;
+    width: 100%;
+    justify-content: center;
+
+}
+
+.liEdu {
+    list-style: none;
+    display: flex;
+    position: relative;
+    min-height: 70px;
+    flex-direction: column;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstCol {
+  margin: 0;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.43;
+  letter-spacing: 0.01071em;
+  text-align: right;
+  color: rgba(0, 0, 0, 0.6);
+  padding: 6px 16px;
+  margin-right: auto;
+  text-align: right;
+  margin: auto 0;
+  height: 80px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.secondCol {
+  display: flex;
+  flex-direction: row;
+  flex: 0;
+  align-items: center;
+  width: 100%;
+}
+
+.spanLine {
+  width: 64px;
+  height: 2px;
+  background-color: #bdbdbd;
+  flex-grow: 1;
+}
+
+.spanSvg {
+  display: flex;
+  align-self: baseline;
+  border-style: solid;
+  border-width: 2px;
+  padding: 4px;
+  border-radius: 50%;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  margin: 11.5px 0;
+  border-color: transparent;
+  color: #fafafa;
+  background-color: #bdbdbd;
+}
+
+.svg {
+  user-select: none;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  fill: currentColor;
+  flex-shrink: 0;
+  transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  font-size: 1.5rem;
+}
+
+.thirtCol {
+  margin: 0;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+  padding: 6px 16px;
+  text-align: left;
+  padding: 12px 16px;
+  height: 80px;
+}
+
+.spanHistory {
+  margin: 0;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.6;
+  letter-spacing: 0.0075em;
+}
+
+.pHistory {
+  margin: 0;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: 0.00938em;
+}

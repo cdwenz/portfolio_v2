@@ -10,6 +10,7 @@ import Project from './components/Projects';
 import './App.css'
 import Technologies from './components/Technologies';
 import Employment from './components/Employment';
+import Education from './components/Education';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Project />
       <Employment />
       <Technologies />
+      <Education />
       <Contact />
       <Footer />
     </div>

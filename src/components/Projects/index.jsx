@@ -40,7 +40,7 @@ const projects = [
 
 function Project() {
   return (
-        <div className={styles.container}>
+        <div className={styles.container} id='PROYECTS'>
           <div className={styles.grid}>
             {projects.map((element, index)=>{
               return (

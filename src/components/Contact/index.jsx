@@ -6,7 +6,7 @@ import Select from "../Select/index";
 function Contact() {
   return (
     <>
-      <div className={styles.mainContact}>
+      <div className={styles.mainContact} id="CONTACT">
         <div className={styles.sections}>
           <section>
             <img src={imgContact} alt="contactIMG" />
