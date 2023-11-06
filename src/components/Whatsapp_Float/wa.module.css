@@ -1,0 +1,38 @@
+.floating_button {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+  }
+  
+  .imgWA {
+    width: 60px;
+    height: 60px;
+    transition: 0.5s all ease;
+  }
+  
+  .imgWA:hover {
+    scale: 1.1;
+  }
+  
+  .floating_button_top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eeecec;
+    width: 57px;
+    height: 57px;
+    border-radius: 100%;
+    cursor: pointer;
+  }
+  
+  .imgTop {
+    width: 35px;
+    height: 35px;
+  }
+
+  .imgTop:hover {
+    opacity: 0.5;
+  }

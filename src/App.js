@@ -11,8 +11,27 @@ import './App.css'
 import Technologies from './components/Technologies';
 import Employment from './components/Employment';
 import Education from './components/Education';
+import Float from './components/Float';
+import { useEffect, useState } from 'react';
 
 function App() {
+  const [scroll, setScroll] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollY = window.scrollY;
+      if(scrollY !== scroll) setScroll(scrollY);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+        window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  console.log({scroll})
+
   return (
     <div className="App">
       <Header />
@@ -26,6 +45,7 @@ function App() {
       <Education />
       <Contact />
       <Footer />
+      <Float />
     </div>
   );
 }
