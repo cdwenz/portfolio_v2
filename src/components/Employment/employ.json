@@ -1,6 +1,20 @@
 {
     "employments": [
         {
+            "img": "https://firebasestorage.googleapis.com/v0/b/images-cdwenz.appspot.com/o/technologies%2Fimg_main.png?alt=media&token=1b1b74ab-84b0-43fa-a8dd-88bf14966804",
+            "title": "HardCode Technologies",
+            "date": "2023 - Act",
+            "details": [
+                "Creación de aplicaciones Web y móviles",
+                "Creación de aplicaciones Web y móviles",
+                "Creación de aplicaciones Web y móviles",
+                "Creación de aplicaciones Web y móviles",
+                "Creación de aplicaciones Web y móviles",
+                "Creación de aplicaciones Web y móviles"
+            ],
+            "position": "Founder"
+        },
+        {
             "img": "https://firebasestorage.googleapis.com/v0/b/images-cdwenz.appspot.com/o/technologies%2Femploy_ivoy.png?alt=media&token=917e97a5-f79e-4675-97ea-71f19f25e4d9",
             "title": "ivoy - tus envíos mas rápidos",
             "date": "2022 - 2023",
@@ -17,12 +31,13 @@
         {
             "img": "https://firebasestorage.googleapis.com/v0/b/images-cdwenz.appspot.com/o/technologies%2Fcw1.png?alt=media&token=080d1536-bb3a-4f0e-89d6-7ee01a2c875d",
             "title": "Wenz Soporte IT",
-            "date": "2015 - ACT",
+            "date": "2015 - 2022",
             "details": [
-                "Chequeo y reparación de hardware y software",
-                "Manejo de herramientas informáticas (Outlook, Word, Excel, Power Point, SharePoint)",
-                "Manejo de apps de videoconferencia(Zoom, Teams, Skype for Bussines)",
-                "Manejo de apps de VPN, Antivirus(McAfee)",
+                "Gestión de servidores",
+                "Active directory, backup's, actualización",
+                "Chequeo y reparación de equipos IT",
+                "Instalación  mantenimiento de redes Wifi, LAN, VPN",
+                "Manejo de herramientas ofimáticas",
                 "Entornos de Sist. Op. Windows y Linux",
                 "Mantenimiento correctivo y preventivo."
             ],
@@ -43,18 +58,20 @@
             "position": "Company Man - WorkOver"
         },
         {
-            "img": "https://firebasestorage.googleapis.com/v0/b/images-cdwenz.appspot.com/o/technologies%2Femploy_ivoy.png?alt=media&token=917e97a5-f79e-4675-97ea-71f19f25e4d9",
-            "title": "ivoy - tus envíos mas rápidos",
-            "date": "2022 - 2023",
+            "img": "https://firebasestorage.googleapis.com/v0/b/images-cdwenz.appspot.com/o/technologies%2FneuquenEmploy.png?alt=media&token=aab027b3-3f00-4cb4-8d17-1c3e95fa78f0",
+            "title": "Consejo Provincial de Educación",
+            "date": "2008 - 2011",
             "details": [
-                "Distribución equilibrada de tareas",
-                "Integración de clientes a nuestra API",
-                "Desarrollar procesos documentados",
-                "Implementar estrategia de atención de incidencias y requerimientos",
-                "Seguimiento de primer contacto a incidencias y requerimientos realizadospor usuarios finales.", 
-                "A cargo del sistema de tickets."
+                "Gestión técnica de los diez distritos de la provincia",
+                "Armado y puesta en marcha de equipos IT",
+                "Atención al usuario in situ y remoto",
+                "Actualización de software",
+                "Asesoramiento técnico",
+                "Windows server, Active Directory, Back up",
+                "Cableado UTP y Redes Wifi",
+                "Instalación y mantenimiento de impresoras"
             ],
-            "position": "Head of integrations & support"
+            "position": "Server admin & HelpDesk"
         }
     ]
 }

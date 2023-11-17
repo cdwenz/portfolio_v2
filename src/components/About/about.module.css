@@ -48,6 +48,20 @@
     transition: 0.5s all ease;
 }
 
+.iFrameDiv{
+    position:relative;
+    padding-top:56.25%;
+    width: 100%;
+}
+
+.iFrame {
+    border:0;
+    position:absolute;
+    top:0;
+    height:100%;
+    width:100%;
+}
+
 @media screen and (max-width: 920px) {
     .container {
         flex-direction: column-reverse;
