@@ -50,7 +50,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--main-color);
+  background-color: whitesmoke;
+  border: 1px solid var(--main-color);
+  box-shadow: 1px 1px 10px gray;
   width: 57px;
   height: 57px;
   border-radius: 100%;
@@ -67,12 +69,35 @@
   opacity: 0.5;
 }
 
+.linkTo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 0px 1.75rem;
+  color: white;
+  font-family: sans-serif;
+  font-size: 0.9rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.5s all ease;
+  text-decoration: none;
+  color: var(--main-color);
+  background-color: var(--back-gray);
+}
+.linkTo:hover {
+  transition: 0.5s all ease;
+}
+
 @media screen and (max-width: 500px) {
-  .floating_button {
+  .floating_button_top {
+    visibility: visible !important;
+  }
+  /* .floating_button {
     top: 45px;
   }
 
   .listItems {
     transform: translateX(-80%);
-  }
+  } */
 }

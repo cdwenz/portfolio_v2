@@ -6,7 +6,7 @@ import imgmobile from './mobile.png';
 export const layers = [
     {
         name: 'Frontend',
-        description: 'Layout and funcionality with  ReactJS & related frameworks',
+        description: 'Layout and funcionality with  ReactJS, NextJS & related frameworks',
         img: imgFront
     },
     {
@@ -16,13 +16,13 @@ export const layers = [
     },
     {
         name: 'Design',
-        description: 'Interface design with Figma Inc. ',
+        description: 'Knowledge in interface design with Figma Inc. ',
         img: imgDesign
     },
     {
         name: 'Mobile ',
-        description: 'Mobile Apps with Flutter / Dart and React Native / Javascript',
-        img: imgFront
+        description: 'Beginner in mobile Apps with Flutter / Dart and React Native / Javascript',
+        img: imgmobile
     }
 ]
 

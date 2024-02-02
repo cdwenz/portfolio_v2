@@ -64,7 +64,7 @@
   width: 100%;
 }
 
-.spanLine {
+.spanLineLeft, .spanLineRight {
   width: 64px;
   height: 2px;
   background-color: #bdbdbd;
@@ -126,4 +126,36 @@
   font-size: 1rem;
   line-height: 1.5;
   letter-spacing: 0.00938em;
+}
+
+@media screen and (max-width: 500px) {
+  .ulEdu {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .liEdu {
+    flex-direction: row;
+    width: 80%;
+  }
+
+  .spanLineLeft, .spanLineRight {
+    height: 64px;
+    max-width: 2px;
+  }
+
+  .secondCol {
+    flex-direction: column;
+  }
+
+  .firstCol, .thirtCol {
+    height: auto;
+    width: 180px;
+  }
+
+  .spanSvg {
+    min-width: 70px;
+  }
+
 }

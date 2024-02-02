@@ -33,12 +33,18 @@ function Float() {
       <div className={styles.floating_button}>
         <ol
           className={styles.listItems}
-          // style={{ display: `${isMenu ? "block" : "none"}` }}
+          style={{ display: `${isMenu ? "block" : "none"}` }}
         >
           {items.map((item, index) => {
             return (
               <li className={styles.liFloat} key={index}>
-                {item}
+                <a
+                    key={index}
+                    href={`#${item}`}
+                    className={styles.linkTo}
+                    onClick={() => setIsMenu(!isMenu)}
+                  >{item}</a>
+                
               </li>
             );
           })}

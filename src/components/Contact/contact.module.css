@@ -27,7 +27,7 @@
     margin: 0;
   }
 
-.inputText, select {
+.inputText, select, .inputMessage {
     border: 1px solid #A0A5A9;
     width: 452px;
     height: 48px;
@@ -58,6 +58,12 @@
     outline: none;
     text-transform: uppercase;
     letter-spacing: 2px;
+    transition: .3s ease;
+}
+
+.btnEnviar:hover {
+    font-size: larger;
+    background-color: #686868;
 }
 
 .formSmall {

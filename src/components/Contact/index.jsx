@@ -17,7 +17,7 @@ function Contact() {
             <input
               type="text"
               className={styles.inputText}
-              placeholder="Nombre"
+              placeholder="Name"
             />
             <input
               type="text"
@@ -25,10 +25,15 @@ function Contact() {
               placeholder="Email"
             />
             <Select />
+            <textarea
+              rows={3}
+              className={styles.inputMessage}
+              placeholder="Message"
+            />
             <input
               type="button"
               className={styles.btnEnviar}
-              value={"ENVIAR"}
+              value={"Send"}
             />
           </section>
         </div>

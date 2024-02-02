@@ -11,7 +11,7 @@ function Home() {
           <Textra 
           effect='leftRight'
             duration={300}
-            data={['Frontend', 'Backend', 'Figma']}
+            data={['Frontend', 'Backend', 'Fullstack']}
           />
           </h4>
           <h1>Developer</h1>
