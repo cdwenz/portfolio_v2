@@ -4,8 +4,7 @@ import styles from "./select.module.css";
 const initialAsks = [
   "Propuesta de trabajo",
   "Consultas de código",
-  "asdasd de código",
-  "Consultas de asd",
+  "otro",
 ]
 
 function Select() {
