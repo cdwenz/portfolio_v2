@@ -7,32 +7,6 @@
 	height: 420px;
 }
 
-/* .grid {
-	position: relative;
-	max-height: 420px;
-	border: 1px solid black;
-	display: flex;
-	overflow-x: auto
-}
-
-.grid::-webkit-scrollbar{
-	width: 0;
-}
-
-.grid .figure {
-	line-height: 410px;
-	margin-right: 2px;
-	position: relative;
-	float: left;
-	overflow: hidden;
-	margin: 10px 1%;
-	min-width: 320px;
-	width: 360px;
-	height: 410px;
-	text-align: center;
-	cursor: pointer; 
-}*/
-
 .imgProject {
     position: relative;
 }
@@ -73,10 +47,11 @@
 
 .grid figure img {
 	position: relative;
-	display: block;
+	/* display: block; */
 	min-height: 100%;
 	max-width: 100%;
-	opacity: 0.8;
+	opacity: 0.7;
+	object-fit: cover;
 }
 
 .grid figure figcaption {
@@ -116,7 +91,7 @@
 	font-weight: 300;
 }
 
-.grid figure h2 span {
+.grid figure figcaption span {
 	font-weight: 800;
 }
 
@@ -136,6 +111,8 @@
 
 figure.effect_ming {
 	background: #030c17;
+	display: flex;
+	align-items: center;
 }
 
 figure.effect_ming:hover img {
