@@ -44,8 +44,17 @@
 
 .btnResume:hover {
     background-color: #25a09c;
-    color: #F2F1EF;
     transition: 0.5s all ease;
+}
+
+.btnResume > a {
+    text-decoration: none;
+    color: black;
+    transition: 0.5s all ease;
+}
+
+.btnResume > a:hover {
+    color: #F2F1EF;
 }
 
 .iFrameDiv{

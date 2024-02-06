@@ -42,6 +42,10 @@
     outline: none;
 }
 
+.inputText::placeholder {
+    color: black;
+}
+
 .select {
     width: 455px !important;
 }
@@ -89,7 +93,7 @@
         margin-left: 80px;
       }
     .form {
-        backdrop-filter: blur(10px);
+        backdrop-filter: blur(25px);
         padding-block: 24px;
         align-items: center;
     }

@@ -40,8 +40,8 @@ font-size: 12px;
     text-decoration: none;
   }
   .social > a > svg {
-    height: 1em;
-    width: 1em;
+    height: 1.2em;
+    width: 1.2em;
     color: whitesmoke;
     transition: 0.2s all ease-in;
   }
