@@ -98,6 +98,9 @@
     }
   }
   @media screen and (max-width: 500px) {
+    .logoContainer{
+      margin-left: 0;
+    }
     .div {
       width: 60%;
       justify-content: left;

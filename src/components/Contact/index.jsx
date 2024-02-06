@@ -5,8 +5,8 @@ import Select from "../Select/index";
 
 function Contact() {
   return (
-    <>
-      <div className={styles.mainContact} id="CONTACT">
+    <div id="CONTACT" className={styles.containContact}>
+      <div className={styles.mainContact}>
         <div className={styles.sections}>
           <section>
             <img src={imgContact} alt="contactIMG" />
@@ -52,7 +52,7 @@ function Contact() {
           <input type="button" className={styles.btnEnviar} value={"ENVIAR"} />
         </section>
       </div>
-    </>
+    </div>
   );
 }
 
