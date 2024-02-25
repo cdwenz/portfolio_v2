@@ -21,7 +21,6 @@
 	position: relative;
 	clear: both;
 	margin: 0 auto;
-	/* padding: 1em 0 4em; */
 	display: flex;
 	overflow-x: auto;
 	overflow-y: hidden;
@@ -29,6 +28,7 @@
 	height: 420px;
 	list-style: none;
 	text-align: center;
+	justify-content: center;
 }
 
 .grid figure {

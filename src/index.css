@@ -21,12 +21,12 @@ code {
 /* ===== Scrollbar CSS ===== */
 /* Firefox */
 * {
-  scrollbar-width: auto;
-  scrollbar-color: #00c2cb #3d3d3d;
+  scrollbar-width: thin;
+  scrollbar-color: var(--main-color) #3d3d3d;
 }
 
 /* Chrome, Edge, and Safari */
-*::-webkit-scrollbar {
+/* *::-webkit-scrollbar {
   width: 8px;
 }
 
@@ -35,16 +35,39 @@ code {
 }
 *::-webkit-scrollbar-track,
 *::-webkit-scrollbar-track:horizontal {
-  background: transparent;
-  width: 10px;
+  background: #3d3d3d;
+  border-radius: 3px;
+  width: 8px;
 }
 
 *::-webkit-scrollbar-thumb,
 *::-webkit-scrollbar-thumb:horizontal {
-  background-color: #00c2cb;
+  background-color: var(--main-color);
   border-radius: 6px;
   border: 1px solid #3d3d3d;
+} */
+
+
+
+/* Chrome, Edge, and Safari */
+/* *::-webkit-scrollbar {
+  width: 8px;
 }
+
+*::-webkit-scrollbar-track {
+  background: #3d3d3d;
+  border-radius: 3px;
+  width: 8px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--main-color);
+  border-radius: 6px;
+  border: 1px solid #3d3d3d;
+} */
+
+
+
 
 /* PLACEHOLDER */
 

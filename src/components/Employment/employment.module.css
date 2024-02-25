@@ -17,9 +17,10 @@
 
 .cardMap {
     display: flex;
-    gap: 48px;
+    gap: 32px;
     overflow-x: scroll;
-    padding: 24px 14px;
+    padding-block: 24px;
+    padding-right: 12px;
 }
 
 .containCard {

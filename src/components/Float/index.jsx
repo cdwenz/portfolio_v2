@@ -18,7 +18,7 @@ function Float() {
   useEffect(() => {
     const handleScroll = () => {
       const scrollY = window.scrollY;
-      scrollY > 300 || window.screen.width <= 500 ? setScroll(false) : setScroll(true);
+      scrollY > 300  ? setScroll(true) : setScroll(false);
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -51,7 +51,7 @@ function Float() {
         </ol>
         <div
           className={styles.floating_button_top}
-          style={{ visibility: scroll ? "hidden" : "inherit" }}
+          style={{ visibility: scroll ? "visible" : "hidden" }}
         >
           <img
             src="https://img.icons8.com/ios/50/menu--v1.png"

@@ -16,11 +16,11 @@ function Technologies() {
       <div className="row box">
         {charge.map((item, index) => {
           return (
-            <>
+            <React.Fragment key={index}>
               <div className="col imgSmall">
                 <img src={item.imgColor} alt="img"/>
               </div>
-              <div className="col-sm-2 flexCenter" key={index}>
+              <div className="col-sm-3 flexCenter">
                 <div className="ih-item circle effect3 left_to_right">
                   <a href="#">
                     <div className="img">
@@ -29,12 +29,12 @@ function Technologies() {
                     </div>
                     <div className="info">
                       <h5>{item.title}</h5>
-                      <p>{item.description}</p>
+                      {/* <p>{item.description}</p> */}
                     </div>
                   </a>
                 </div>
               </div>
-            </>
+            </React.Fragment>
           );
         })}
       </div>
