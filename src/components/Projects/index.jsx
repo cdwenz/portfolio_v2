@@ -1,7 +1,4 @@
 import React from 'react';
-import img from '../../img/img_main.png';
-import img8 from '../../img/8.jpg';
-import img9 from '../../img/9.jpg';
 
 import styles from './project.module.css'
 
@@ -18,7 +15,7 @@ const projects = [
   subtitle: 'Lavadero',
   description: 'Turnos web',
   img: "https://firebasestorage.googleapis.com/v0/b/images-cdwenz.appspot.com/o/Portfolio%2Flanincarwash_org.png?alt=media&token=f5fa4ea0-2c45-4ef3-bba6-61c06207dbe4",
-  url: "https://www.lanincarwash.com"
+  url: "https://www.lanincarwash.com.ar"
   },
   {
   title: 'Tierra prometida',
